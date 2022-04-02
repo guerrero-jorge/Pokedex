@@ -1,0 +1,477 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  
+}
+
+form{
+  margin-top: 50px;
+
+}
+
+
+
+.containerInfo{
+
+
+    
+    margin: 0px auto;
+    margin-top: 80px;
+  
+    width: 70%;
+
+    /*border-width: 22px;*/
+
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 10px 8px 8px rgba(67, 68, 68, 0.473);
+}
+.containerLogo{
+
+    height: 90%;
+    background-color: white;
+}
+.containerLogin p{
+
+      color: rgb(27, 27, 25);
+      padding-top: 50px;
+      font-size: 25px;
+}
+
+.containerLogo input{
+
+  margin-top: 20px;
+  height: 25px;
+  
+}
+
+.containerLogo button{
+
+    background-color: red;
+    
+    height: 27px;
+    padding: 5px;
+    color: whitesmoke;
+    
+
+}
+
+.cardPokemones:hover{
+
+  transform:translateY(-10px);
+ /* transform: scale(1.1);*/
+  box-shadow:0 11px 15px rgb(95, 99, 97);
+}
+
+
+
+
+
+.ContainerAbili{
+
+      width: 80%;
+      
+
+}
+
+.ContainerAbili p{
+
+  margin-bottom: 10px;
+  
+
+}
+
+.containerTypeAbili{
+
+  width:70%;
+  margin: 40px auto;
+  
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+
+.abilitiesInfo{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.abilitiesInfo .abili{
+
+    border: 1px solid rgb(177, 173, 173);
+    background: white;
+}
+.abilitiesInfo p{
+
+    /*background-color: blueviolet;*/
+    margin: 2px 3px;
+    padding: 2px 3px;
+    border: 1px solid rgb(177, 173, 173);
+    background: white;
+    
+    /*border: 1px solid rgb(202, 198, 198);
+    padding: 1px 9px ;
+    width: 50%;
+    margin: 0px 5px;*/
+}
+
+.containerStats{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.containerStats p{
+
+    margin-bottom: 20px;
+}
+
+.containerLogin img{
+
+    width: 50%;
+    margin-top: 100px;
+ 
+}
+.containerLogin{
+
+
+    background-color: rgb(196, 10, 10);
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  padding:0px 40px;
+
+  
+  /*text-align: center;*/
+
+}
+li.cardPokemones{
+
+   
+    width: 250px;
+    /*border: 9px solid rgb(179, 179, 184);*/
+    border-radius: 15px;
+    list-style: none;
+    
+    margin: 20px 10px 0px 10px;
+    background-color: rgb(179, 28, 28);
+    padding: 11px;
+
+    /*nuevo..*/
+    height: 300px;
+    
+    
+    
+}
+
+li.cardPokemones a{
+
+    text-decoration: none;
+    width: 100%;
+    color: rgb(22, 21, 21);
+}
+
+#containerPokeP{
+
+
+      color: rgb(128, 126, 129);
+}
+
+.cardPokemones img{
+
+    width: 100px;
+}
+
+/*.cardPokemonesDiv{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding:10px 0px;
+
+
+}*/
+
+.containerPoke{
+
+
+  width: 100%;
+  padding-top: 15px;
+  height: 100%;
+  position: relative;
+  background-color: white;
+}
+
+.cardPokemonesDiv{
+
+    /*margin-top: 20px;
+    background-color: rgb(189, 189, 194);*/
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top:18px;
+    padding-bottom: 13px;
+    position: absolute;
+    top: 220px;
+
+}
+
+.cardPokemonesDiv p{
+
+    width: 50%;
+    
+}
+
+select{
+
+  
+    width: 220px;
+    margin-bottom: 30px;
+
+}
+
+
+.botoneInferiores{
+    
+    
+  padding-bottom: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.botoneInferiores button{
+
+  margin-top: 30px;
+  
+  background-color: rgb(241, 231, 231);
+  border: none;
+  
+  border-radius: 50%;
+  
+}
+
+.botoneInferiores i{
+
+    color: red;
+    
+    
+    font-size: 30px;
+}
+.botoneInferiores span{
+
+  margin: 30px 10px 0px 10px;
+}
+
+
+#plogin{
+
+
+    color: red;
+    font-weight: bold;
+}
+
+.weightHeight{
+ 
+  display: flex;
+  justify-content: center;
+  margin:10px 10px;
+  color: rgb(167, 163, 170);
+}
+
+.weightHeight div{
+
+    margin:0px 7px;
+
+}
+
+select option{
+
+    background-color: rgba(211, 202, 202, 0.959);
+}
+h3 span{
+
+      color: red;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+      font-weight: bold;
+      
+}
+ 
+.containerPomenInfo{
+
+    margin-top: 200px;
+    width: 100%;
+
+}
+ 
+.containerPokemon form button{
+
+    background-color: red;
+
+}
+
+.containerPokemonInfo img{
+
+    width: 250px;
+}
+
+.nav{
+
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgb(196, 10, 10);
+    padding-bottom: 20px;
+    position: relative;
+  
+}
+
+.link{
+
+  
+  font-size: 50px;
+  position:fixed;
+  /*top:40px;
+  left:120px*/
+
+    top:50vh;
+    left:5vw;
+}
+
+.link i{
+
+    color: aliceblue;
+
+}
+
+.nav img{
+
+    width: 35%;
+    margin-top: 20px;
+    
+
+}
+
+.progress{
+
+  background: rgba(229, 235, 235, 0.733);
+
+  /*rgba(203, 247, 247, 0.938)*/
+  
+
+  
+ 
+  
+  width:70%; 
+  height:25px;
+
+}
+
+.containerMovements{
+
+
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  border-radius: 15px;
+  
+  
+  width: 70%;
+  margin: 0px auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  box-shadow: 10px 8px 8px rgba(67, 68, 68, 0.473);
+  background-color: lightblue;
+}
+.containerMovements span{
+
+    border-radius: 10px;
+    background-color: rgba(229, 235, 235, 0.733);
+    margin: 5px;
+    padding: 4px;
+    color: black;
+}
+
+.link i{
+
+  color: rgb(218, 19, 5);
+  
+}
+
+@media only screen and (max-width: 599px) {
+
+    .containerInfo img{
+
+        width: 130px;
+    }
+
+    .containerInfo {
+
+          width: 75%;
+          border-width: 10px;
+    }
+
+    .containerMovements{
+
+        width: 75%;
+
+    }
+    .progress{
+
+        width: 85%;
+    }
+
+    .link{
+
+  
+      font-size: 40px;
+      position:absolute;
+      /*top:40px;
+      left:120px*/
+      
+        top:16vh;
+        left:44vw;
+    }
+
+    .nav img {
+      width: 45%;
+      
+    }
+   
+}
+
+@media only screen and (min-width: 600px) {
+
+    .containerInfo{
+
+      border-width: 20px;
+  }
+}
