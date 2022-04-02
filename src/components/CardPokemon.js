@@ -14,7 +14,7 @@ const CardPokemon = ({pokemonUrl}) => {
 
     const [pokemon, setPokemon]=useState({});
 
-    const [ayuda,setAyuda]=useState("");
+    
 
    // console.log("tipo",pokemon);
 

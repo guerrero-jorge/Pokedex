@@ -3,7 +3,6 @@ import './App.css';
 import Login from "./components/Login";
 import Pokemones from './components/Pokemones';
 import PokemonInfo from './components/PokemonInfo';
-import { useSelector,useDispatch } from 'react-redux';
 import ProtectedRoutes from './components/ProtectedRoutes';
 
 

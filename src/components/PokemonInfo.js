@@ -2,7 +2,6 @@ import axios from 'axios';
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
-import logo from '../images/logo2.png';
 import logo2 from '../images/logo.png';
 import fondo from '../utils/fondo';
 import { Link } from 'react-router-dom';

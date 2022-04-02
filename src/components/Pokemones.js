@@ -2,10 +2,8 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
 import CardPokemon from './CardPokemon';
-import { Navigate, useNavigate } from 'react-router';
-import logo from '../images/logo2.png'
+import { useNavigate } from 'react-router';
 import logo2 from '../images/logo.png'
 
 

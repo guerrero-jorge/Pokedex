@@ -1,9 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
-import { useSelector,useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router';
 import logo from '../images/logo2.png'
-import ball from '../images/ball.png'
+
 
 
 const Login = () => {
